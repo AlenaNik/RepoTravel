@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+}
+
+/*.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;*/
+
+
+.App-header {
+  background-image: url("https://image.freepik.com/vector-gratis/concepto-fin-semana-familiar-padres-e-hijos-caminando-ilustracion-vectorial-dibujos-animados_1284-12496.jpg");
+  background-repeat: no-repeat;
+  background-position: center; /* Center the image */
+  background-size: cover;
+  min-height: 100vh;
+  min-width: 120vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 60px;
+  color: #e1e256;
+}
+blockquote {
+  font-size: 30px;
+  color: #e1e256;
+  font-weight: bold;
+}
+cite{
+  font-size: 20px;
+  color: black;
+  font-style: normal;
+  font-weight: bold;
+}
