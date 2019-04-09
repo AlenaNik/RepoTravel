@@ -21,8 +21,9 @@ const countries = [
    const Country = () => (
     <div>
       {countries.map(country => (
-      <img src={country.image} />
+        <img src={country.image} />
       ))}
     </div>
   );
+  
   export default Country;
