@@ -23,8 +23,8 @@ const countries = [
       {countries.map(country => (
         <tr>
             <td>
-          <img src={country.image} />
           <h2>{country.country}. {country.name}</h2>
+          <img src={country.image} />
             </td>
        </tr>
       ))}
