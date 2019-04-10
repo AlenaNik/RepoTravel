@@ -19,11 +19,16 @@ const countries = [
    ];
 
    const Country = () => (
-    <div>
+    <table>
       {countries.map(country => (
-        <img src={country.image} />
+        <tr>
+            <td>
+          <img src={country.image} />
+          <h2>{country.country}. {country.name}</h2>
+            </td>
+       </tr>
       ))}
-    </div>
+    </table>
   );
   
   export default Country;
