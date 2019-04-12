@@ -1,5 +1,7 @@
 import React from "react";
 
+import Travels from "./Travels";
+
 const countries = [
        {
           country: "Why I love travelling?",
@@ -18,17 +20,11 @@ const countries = [
         }
    ];
 
-   const Country = () => (
-    <table>
-      {countries.map(country => (
-        <tr>
-            <td>
-          <h2>{country.country}. {country.name}</h2>
-          <img src={country.image} />
-            </td>
-       </tr>
-      ))}
-    </table>
+   const App = () => (
+     <div>
+        <h2>My Travels</h2>
+        <Travels countries={countries}/>
+     </div>
   );
   
-  export default Country;
+  export default App;
